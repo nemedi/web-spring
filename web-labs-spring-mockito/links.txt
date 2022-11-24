@@ -1,0 +1,3 @@
+https://spring.io/guides/gs/managing-transactions/
+https://www.baeldung.com/spring-transactional-propagation-isolation
+https://www.javainuse.com/spring/boot-transaction
