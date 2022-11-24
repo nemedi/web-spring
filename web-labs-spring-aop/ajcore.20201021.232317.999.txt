@@ -1,0 +1,135 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.6.1 built on Thursday Jul 3, 2008 at 18:35:41 GMT
+---- Dump Properties ---
+Dump file: ajcore.20201021.232317.999.txt
+Dump reason: org.aspectj.weaver.BCException
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+---- System Properties ---
+java.specification.version=13
+sun.jnu.encoding=UTF-8
+java.class.path=/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar
+java.vm.vendor=Oracle Corporation
+sun.arch.data.model=64
+java.vendor.url=https://java.oracle.com/
+user.timezone=Europe/Bucharest
+java.vm.specification.version=13
+os.name=Mac OS X
+sun.java.launcher=SUN_STANDARD
+user.country=RO
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home/lib
+sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B clean install
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16|172.22.13.11
+jdk.debug=release
+maven.home=/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/EMBEDDED
+sun.cpu.endian=little
+user.home=/Users/iulian
+user.language=en
+java.specification.vendor=Oracle Corporation
+java.version.date=2020-01-14
+java.home=/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+file.separator=/
+java.vm.compressedOopsMode=Zero based
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+java.specification.name=Java Platform API Specification
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16|172.22.13.11
+java.runtime.version=13.0.2+8
+user.name=iulian
+path.separator=:
+os.version=10.15.7
+java.runtime.name=Java(TM) SE Runtime Environment
+file.encoding=UTF-8
+guice.disable.misplaced.annotation.check=true
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vendor.url.bug=https://bugreport.java.com/bugreport/
+java.io.tmpdir=/var/folders/vb/1w6w78w103bf67zttd28j7_w0000gn/T/
+java.version=13.0.2
+user.dir=/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop
+os.arch=x86_64
+maven.multiModuleProjectDirectory=/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop
+java.vm.specification.name=Java Virtual Machine Specification
+java.library.path=/Users/iulian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.vm.info=mixed mode, sharing
+java.vendor=Oracle Corporation
+java.vm.version=13.0.2+8
+classworlds.conf=/Users/iulian/workspaces/web-labs-2020/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2324228677067475723.tmp
+sun.io.unicode.encoding=UnicodeBig
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16|172.22.13.11
+java.class.version=57.0
+---- Command Line ---
+-outxml
+-showWeaveInfo
+-verbose
+-classpath
+/Users/iulian/.m2/repository/org/aspectj/aspectjrt/1.5.4/aspectjrt-1.5.4.jar:/Users/iulian/.m2/repository/org/aspectj/aspectjtools/1.5.4/aspectjtools-1.5.4.jar:/Users/iulian/.m2/repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar:/Users/iulian/.m2/repository/org/springframework/spring-aop/5.2.4.RELEASE/spring-aop-5.2.4.RELEASE.jar:/Users/iulian/.m2/repository/org/springframework/spring-aspects/5.2.4.RELEASE/spring-aspects-5.2.4.RELEASE.jar:/Users/iulian/.m2/repository/org/springframework/spring-beans/5.2.4.RELEASE/spring-beans-5.2.4.RELEASE.jar:/Users/iulian/.m2/repository/org/springframework/spring-context/5.2.4.RELEASE/spring-context-5.2.4.RELEASE.jar:/Users/iulian/.m2/repository/org/springframework/spring-core/5.2.4.RELEASE/spring-core-5.2.4.RELEASE.jar:/Users/iulian/.m2/repository/org/springframework/spring-expression/5.2.4.RELEASE/spring-expression-5.2.4.RELEASE.jar:/Users/iulian/.m2/repository/org/springframework/spring-jcl/5.2.4.RELEASE/spring-jcl-5.2.4.RELEASE.jar:/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/target/classes
+-aspectpath
+/Users/iulian/.m2/repository/org/springframework/spring-aspects/5.2.4.RELEASE/spring-aspects-5.2.4.RELEASE.jar
+-d
+/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/target/classes
+/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/src/main/java/demo01/ApplicationConfiguration.java
+/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/src/main/java/demo01/Application.java
+/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/src/main/java/demo01/Country.java
+/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/src/main/java/demo01/Regex.java
+/Users/iulian/workspaces/web-labs-2020/web-labs-spring-aop/src/main/java/demo01/RegexAspect.java
+---- Full Classpath ---
+Empty
+---- Compiler Messages ---
+warning bad version number found in /Users/iulian/.m2/repository/org/aspectj/aspectjrt/1.5.4/aspectjrt-1.5.4.jar expected 1.6.1 found 1.5.4
+abort ABORT -- (BCException) Unable to continue, this version of AspectJ supports classes built with weaver version 6.0 but the class org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect is version 7.0
+when batch building BuildConfig[null] #Files=5
+
+Unable to continue, this version of AspectJ supports classes built with weaver version 6.0 but the class org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect is version 7.0
+when batch building BuildConfig[null] #Files=5
+
+org.aspectj.weaver.BCException: Unable to continue, this version of AspectJ supports classes built with weaver version 6.0 but the class org.springframework.beans.factory.aspectj.GenericInterfaceDrivenDependencyInjectionAspect is version 7.0
+when batch building BuildConfig[null] #Files=5
+
+	at org.aspectj.weaver.bcel.BcelAttributes.readAjAttributes(BcelAttributes.java:87)
+	at org.aspectj.weaver.bcel.BcelObjectType.ensureAspectJAttributesUnpacked(BcelObjectType.java:333)
+	at org.aspectj.weaver.bcel.BcelObjectType.<init>(BcelObjectType.java:151)
+	at org.aspectj.weaver.bcel.BcelWorld.buildBcelDelegate(BcelWorld.java:299)
+	at org.aspectj.weaver.bcel.BcelWorld.addSourceObjectType(BcelWorld.java:361)
+	at org.aspectj.weaver.bcel.BcelWeaver.addAspectsFromJarFile(BcelWeaver.java:259)
+	at org.aspectj.weaver.bcel.BcelWeaver.addLibraryJarFile(BcelWeaver.java:234)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.initBcelWorld(AjBuildManager.java:808)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.doBuild(AjBuildManager.java:248)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:184)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:382)
+	at org.aspectj.tools.ajc.Main.runMain(Main.java:254)
+	at org.codehaus.mojo.aspectj.AbstractAjcCompiler.execute(AbstractAjcCompiler.java:378)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+
+---- org.aspectj.weaver.bcel.BcelWorld@14bf57b2 ----
+Shadow mungers:
+Empty
+Type mungers:
+Empty
+Late Type mungers:
+Empty
